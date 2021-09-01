@@ -19,3 +19,4 @@ export 'src/adapter.dart';
 export 'src/headers.dart';
 export 'src/interceptors/log.dart';
 export 'src/redirect_record.dart';
+export 'package:http_parser/src/media_type.dart';
