@@ -687,7 +687,6 @@ abstract class DioMixin implements Dio {
     // && allowPayloadMethods.contains(options.method)
     if (data != null) {
       // Handle the FormData
-      print("From DIO: $data");
       int? length;
       if (data is Stream) {
         assert(data is Stream<List>,
